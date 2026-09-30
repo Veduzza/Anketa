@@ -1,0 +1,168 @@
+/* body {
+    background-image: url(/images/forest.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+} */
+
+.form-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 35px;
+    background-color: #bbc825ca;
+    border-radius: 20px;
+    box-shadow: 0 30px 110px rgba(9, 3, 3, 0.961);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.form-container h1 {
+    margin-bottom: 10px;
+}
+
+.form-container p.description {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: 700;
+    
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group select {
+    width: 100%;
+    height: 46px;
+    padding: 0 15px;
+    margin-top: 7px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #000000e2;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    color:#bbc825ca;
+}
+
+/* .form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group select {
+width: 100%;
+padding: 12px 15px;
+margin-top: 7px;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-sizing: border-box;
+font-size: 16px;
+} */
+
+.form-group select {
+    padding-right: 20px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #ffffff;
+}
+
+.speciality {
+    margin-top: 10px;
+    
+}
+
+.speciality label {
+    font-weight: normal;
+    margin-left: 7px;
+}
+
+.speciality input {
+    margin-bottom: 20px;
+}
+
+.form-button {
+    width: 100%;
+    padding: 13px;
+    border-radius: 10px;
+    background: #000000;
+    color: #bbc825ca;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background: #bbc825ca;
+    color: black;
+    border-color: black;
+}
+
+#result {
+  background-color: #000000; 
+  border-radius: 12px;      
+  padding: 24px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+  max-width: 600px;
+  margin: 20px auto;       
+  border: 1px solid #000000;
+}
+.description{
+    color: black;
+} 
+.anketa-sent {
+  padding-left: 13px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #bbc825ca;
+  font-weight: 500;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fffffffffffff{
+    background-color:black;
+    /* border-radius: 5px;  */
+    color: #bbc825ca;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.student-info{
+    color: #bbc825ca;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.info-item{
+    color: #bbc825ca;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gradient-wrapper {
+  background: linear-gradient(135deg, black, #bbc825ca);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clear-button{
+    width: 100%;
+    padding: 13px;
+    border-radius: 10px;
+    background: #000000;
+    color: #bbc825ca;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.clear-button:hover{
+    background: #bbc825ca;
+    color: black;
+    border-color: black;
+}

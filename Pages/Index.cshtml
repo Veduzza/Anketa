@@ -128,8 +128,8 @@
             </div>
 
         </div>
-</div>
-    
+
+        
     @if (Model.Message != null)
     {
         <div class="result">
@@ -140,8 +140,13 @@
             </p>
         </div>
     }
-
+    <div class = "student-setion">
+        <h2>Список студентов</h2>
+        <div id = "student-list"></div>
+    </div>
 </div>
+    
+
 
 <script>
     const form = document.querySelector("form");
@@ -184,11 +189,19 @@
             button.disabled = false;
             button.textContent = "Отправить";
         }
-    })
+    });
+
+
+    async function loadStudents() {
+
+    }
+    async function deleteStudent(id){
+
+    }
     form.addEventListener("reset", function(){
         document.querySelector("#result").style.display = "none";
         document.querySelector("#status").textContent = " ";
-    })
+    });
 </script>
 <!-- 
 dotnet --version
